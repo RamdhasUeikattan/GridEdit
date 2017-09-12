@@ -15,6 +15,8 @@ import { ToolbarService, EditService, PageService } from '@syncfusion/ej2-ng-gri
                     <e-column field='ShipCountry' headerText='Ship Country' width='150'></e-column>
                 </e-columns>
               </ej-grid>`,
+    styleUrls: ['app/app.style.css'],
+    encapsulation: ViewEncapsulation.None,
     providers: [ToolbarService, EditService, PageService]
 })
 export class AppComponent implements OnInit {
